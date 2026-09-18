@@ -3,8 +3,8 @@
 #include <ctime>
 int main() { 
    
-    const int NOMBRE_MAX = 100;
-    int nombre;
+ float a = 100;  
+   int nombre;
    srand(time(NULL));
 
    int nombresecret = rand()% NOMBRE_MAX + 1;
@@ -22,5 +22,6 @@ int main() {
     std::cout<<"le resultat de la soustraction est :"<<x-b;
     std::cout<<"le resultat de la multiplication est :"<<x*a;
     std::cout<<"le resultat de la division est :"<<x/b;
+    std::cout<<" votre programme se termine ici";
     return 0;
    }
