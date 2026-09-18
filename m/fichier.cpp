@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 int main() { 
-   const int NOMBRE_MAX = 100;
+   floaot n = 100;
    int nombre;
    srand(time(NULL));
 
