@@ -2,8 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 int main() { 
-   
- float a = 100;  
+   const int NOMBRE_MAX = 100;
    int nombre;
    srand(time(NULL));
 
@@ -15,9 +14,10 @@ int main() {
    }
    int main(){
 
-    int x,a,b;
+    float x,a,b;
     std::cout<<"donner un nombre entre 1 et 100 :";
     std::cin>>x;
+    std::cin>>a;
     std::cout<<"le resultat de l'addition est :"<<x+a;
     std::cout<<"le resultat de la soustraction est :"<<x-b;
     std::cout<<"le resultat de la multiplication est :"<<x*a;
