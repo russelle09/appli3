@@ -23,5 +23,6 @@ int main() {
     std::cout<<"le resultat de la multiplication est :"<<x*a;
     std::cout<<"le resultat de la division est :"<<x/b;
     std::cout<<" votre programme se termine ici";
+    int calculer(int x,int a,int b);
     return 0;
    }
